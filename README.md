@@ -1,3 +1,10 @@
+# Disclaimer
+
+This project uses sample healthcare data sourced from publicly available datasets on [Data.gov](https://www.data.gov/). The data does not contain any **Personally Identifiable Information (PII)** or **Protected Health Information (PHI)** and is compliant with **HIPAA** and other relevant regulations.
+
+This project is intended solely for educational and demonstration purposes, showcasing how AWS services can be used for data analytics and visualization. It is not intended for production use or handling real-world sensitive healthcare data. Users are responsible for ensuring compliance with all applicable laws and regulations when using similar workflows with actual data.
+
+---
 # Healthcare Data Analysis with AWS
 
 This project demonstrates how to use AWS services to analyze data and create visualizations. The project walks through the process of uploading healthcare-related data to Amazon S3, cataloging the data with AWS Glue Crawler, storing metadata in AWS Glue Data Catalog, loading data into Amazon Redshift, and visualizing the data using Amazon QuickSight.
@@ -9,6 +16,8 @@ he workflow includes:
 - **AWS Glue Data Catalog** (for storing metadata)
 - **Amazon Redshift** (for data warehousing)
 - **Amazon QuickSight** (for data visualization)
+
+---
 
 ## Prerequisites
 
@@ -36,7 +45,7 @@ he workflow includes:
 
 You can download sample healthcare data from the following link on **data.gov**:
 
-- [Healthcare Mortality Data - Data.gov](https://www.data.gov/)
+- [Healthcare Mortality Data - Data.gov](https://catalog.data.gov/dataset/effects-of-covid-19-on-hospital-utilization-trends-636d2)
 
 This dataset contains in-hospital mortality trends by diagnosis type and other key healthcare metrics.
 
