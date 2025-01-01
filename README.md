@@ -156,9 +156,9 @@ SELECT * FROM public.in_hospital_mortality_trends_by_diagnosis_type_csv LIMIT 10
 
 ### QuickSight Dashboard Screenshot
 
-*The Amazon QuickSight Dashboard showcasing visualizations.*
+*The Amazon QuickSight Dashboard visualizations.*
 
-![Redshift Query Output](Hospital_mortality_t_2025-01-01T11_42_01.pdf) 
+![Redshift Query Output](Hospital_mortality_t_2025-01-01T11_42_01.jpg) 
 
 ---
 
@@ -175,3 +175,13 @@ With this setup, you’ve successfully uploaded healthcare data to **S3**, proce
 - Consider setting up data refresh schedules in QuickSight to keep the dashboard up to date.
 
 ---
+
+## Notes  
+
+⚠️ **Important Reminder**:  
+"Because we all love the thrill of an unexpected AWS bill, don't forget to *not* delete your created services after testing. Who doesn't enjoy explaining a hefty cloud bill to their manager? But hey, if you're into that sort of thing, go ahead and leave it running. 😉" 
+
+---
+
+## License
+This project is licensed under the MIT License.
